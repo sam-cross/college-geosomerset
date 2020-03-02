@@ -4,6 +4,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Quicksand:400,700&display=swap" rel="stylesheet">
+
 	<style>
 		* { margin: 0; padding: 0; }
 		body {
@@ -11,13 +13,26 @@
 
 			color: #fafafa;
 
-			font-family: "Nunito", "Roboto", "Montserrat", "Segoe UI", sans-serif;
+			font-family: "Quicksand", sans-serif;
 			text-align: center;
 		}
 
+		.flex {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			width: 100vw;
+			height: 100vh;
+		}
+
 		h1 {
+			font-family: "Montserrat";
 			font-size: 3em;
 			color: #efca08;
+
+			margin-bottom: 8px;
 		}
 
 		h3 {
@@ -25,14 +40,17 @@
 		}
 
 		p {
+			margin: 16px 0;
 			color: #dedede;
 			font-size: 1em;
 		}
 	</style>
 </head>
 <body>
-	<h1>Geo-Somerset</h1>
-	<h3>Saving lives at sea</h3>
+	<div class="flex">
+		<h1>Geo-Somerset</h1>
+		<h3>Saving lives at sea</h3>
 
-	<p>This is a <i>college assignment</i> and not a real charity</p> 
+		<p>This is a <i>college assignment</i> and not a real charity</p>
+	</div>
 </body>
